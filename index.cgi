@@ -17,7 +17,7 @@ cgitb.enable()
 form = cgi.FieldStorage()
 
 #データファイルを変数に置き換え
-with open('/web/cgi/sheetmap.txt') as f:
+with open('/var/www/cgi-bin/seatmap.txt') as f:
    reader = csv.reader(f)
    data = [row for row in reader]
 
