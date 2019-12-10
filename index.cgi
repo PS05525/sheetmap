@@ -67,7 +67,6 @@ print("""
 print("<td bgcolor=",data[0][5]," valign=top><form id=form1 name=form1 method=post action=",data[0][3],">")
 print("<input type=submit value=",data[0][4],"><input type=hidden name=event value=form><input type=hidden name=num value=1>")
 print("<center><b>",data[0][6],"</b></center>XXXX(xxxx)</form></td>")
-print("<tr>")
 
 print("""
       <td bgcolor=#BAF1FC valign=top>
@@ -81,7 +80,6 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -93,7 +91,6 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -107,7 +104,6 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -119,7 +115,6 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -133,7 +128,6 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -145,7 +139,6 @@ print("""
 <center><b>名前</b></center>
 9174(2364)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -180,7 +173,6 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -194,7 +186,6 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -206,7 +197,6 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -220,7 +210,6 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -232,7 +221,6 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -246,7 +234,6 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -258,7 +245,6 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -276,7 +262,6 @@ XXXX(xxxx)
       <td valign="bottom"><table width="200" border="1">
         <tbody>
           <tr>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -288,7 +273,6 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -302,7 +286,6 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -314,7 +297,6 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -328,7 +310,6 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -340,7 +321,6 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -354,7 +334,6 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
-          <tr>
 """)
 print("""
             <td bgcolor=#FFFFFF valign=top>
@@ -366,7 +345,6 @@ print("""
 <center><b>　</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
             <td bgcolor=#BAF1FC valign=top>
@@ -378,7 +356,6 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-          <tr>
 """)
 print("""
           </tr>
