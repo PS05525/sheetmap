@@ -39,14 +39,14 @@ for line in data:
       FORM="登録"
       COLOR="#FFFFFF"
       NAME=""
-      data[cnt]=data[cnt][0],data[cnt][2],data[cnt][1],CGI,FORM,COLOR,NAME
+      data[cnt]=data[cnt][0],data[cnt][1],data[cnt][2],CGI,FORM,COLOR,NAME
       cnt=cnt + 1
    else:
       CGI="mod.cgi"
       FORM="更新"
       COLOR="#BAF1FC"
       NAME=line[1]
-      data[cnt]=data[cnt][0],data[cnt][2],data[cnt][1],CGI,FORM,COLOR,NAME
+      data[cnt]=data[cnt][0],data[cnt][1],data[cnt][2],CGI,FORM,COLOR,NAME
       cnt=cnt + 1
 
 #サンプル
@@ -63,18 +63,12 @@ print("""
           </tr>
           <tr>
 """)
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="1">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          <tr>
-""")
+
+print("<td bgcolor=",data[0][5]," valign=top><form id=form1 name=form1 method=post action=",data[0][3],">")
+print("<input type=submit value=",data[0][4],"><input type=hidden name=event value=form><input type=hidden name=num value=1>")
+print("<center><b>",data[0][6],"</b></center>XXXX(xxxx)</form></td>")
+print("<tr>")
+
 print("""
       <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
