@@ -2,6 +2,7 @@
 import init
 import cgi
 import cgitb
+import csv
 from http import cookies
 
 #日本語を処理するのに必要
