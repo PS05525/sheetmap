@@ -16,6 +16,11 @@ cgitb.enable()
 #フォーム情報の取り込み
 form = cgi.FieldStorage()
 
+#データファイルを変数に置き換え
+with open('/web/cgi/sheetmap.txt') as f:
+   reader = csv.reader(f)
+   data = [row for row in reader]
+
 if len(form) == 0:
     CC=""
     C=""
