@@ -38,7 +38,7 @@ print("""
             <td colspan=2 bgcolor=#BAF1FC><center><b>杉崎</b></center>03-5828-XXXX(xxxx)</td>
           </tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -50,7 +50,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
       <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -64,7 +64,7 @@ XXXX(xxxx)
           </tr>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -76,7 +76,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -90,7 +90,7 @@ XXXX(xxxx)
           </tr>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -102,7 +102,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -116,7 +116,7 @@ XXXX(xxxx)
           </tr>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -128,7 +128,7 @@ print("""
 9174(2364)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -151,7 +151,7 @@ print("""
           </tr>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -163,7 +163,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -177,7 +177,7 @@ XXXX(xxxx)
           </tr>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -189,7 +189,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -203,7 +203,7 @@ XXXX(xxxx)
           </tr>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -215,7 +215,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -229,7 +229,7 @@ XXXX(xxxx)
           </tr>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -241,7 +241,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -259,7 +259,7 @@ XXXX(xxxx)
         <tbody>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -271,7 +271,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -285,7 +285,7 @@ XXXX(xxxx)
           </tr>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -297,7 +297,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -311,7 +311,7 @@ XXXX(xxxx)
           </tr>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -323,7 +323,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -337,7 +337,7 @@ XXXX(xxxx)
           </tr>
           <tr>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#FFFFFF valign=top>
 <form id="form1" name="form1" method="post" action=form_add.html>
@@ -349,7 +349,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
@@ -361,7 +361,7 @@ print("""
 XXXX(xxxx)
 </td>
           <tr>
-"""")
+""")
 print("""
           </tr>
         </tbody>
