@@ -18,13 +18,13 @@ ADD init.py /var/www/cgi-bin/init.py
 ADD index.cgi /var/www/cgi-bin/index.cgi
 ADD form.cgi /var/www/cgi-bin/form.cgi
 ADD addmod.cgi /var/www/cgi-bin/addmod.cgi
-ADD sheetmap.txt /var/www/cgi-bin/sheetmap.txt
+ADD seatmap.txt /var/www/cgi-bin/seatmap.txt
 RUN chmod 766 /var/www/html/index.html
 RUN chmod 777 /var/www/cgi-bin/index.cgi
 RUN chmod 777 /var/www/cgi-bin/init.py
 RUN chmod 755 /var/www/cgi-bin/addmod.cgi
 RUN chmod 755 /var/www/cgi-bin/form.cgi
-RUN chmod 777 /var/www/cgi-bin/sheetmap.txt
+RUN chmod 777 /var/www/cgi-bin/seatmap.txt
 
 ENV LANG ja_JP.utf8
 ENV LANGUAGE ja_JP.utf8
