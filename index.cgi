@@ -27,26 +27,7 @@ else:
 
 #サンプル
 print("Content-type: text/html;\n\n")
-print("<html><body><h1>test cgi</h1>\n")
-print("""
-<br>
-AAA<br>
-BBB<br>
-<hr>
-CCC<br>
-テスト表示<br>
-<form id="form1" name="form1" method="post" action=index.cgi>
-<br>
-名前：<input type="text" name=name value="名前">
-<input type="submit" value="更新">
-<input type="hidden" name="event" value="mod">
-<input type="hidden" name="num" value="24">
-</form>
-""")
-print("<hr>入力内容<br>")
-#フォームの内容を表示
-print(f'名前：<b>',CC,"</b><br>")
-print(C)
+print("<html><body><TITLE>ITSS座席表</TITLE><h1>test cgi</h1>\n")
 print("""
 <table width="200" border="0">
   <tbody>
@@ -57,6 +38,8 @@ print("""
             <td colspan=2 bgcolor=#BAF1FC><center><b>杉崎</b></center>03-5828-XXXX(xxxx)</td>
           </tr>
           <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -66,7 +49,10 @@ print("""
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
-            <td bgcolor=#BAF1FC valign=top>
+          <tr>
+"""")
+print("""
+      <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
 <input type="hidden" name="event" value="addform">
@@ -77,6 +63,9 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -86,6 +75,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -97,6 +89,9 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -106,6 +101,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -117,6 +115,9 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -126,6 +127,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 9174(2364)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -146,6 +150,9 @@ XXXX(xxxx)
 
           </tr>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -155,6 +162,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -166,6 +176,9 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -175,6 +188,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -186,6 +202,9 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -195,6 +214,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -206,6 +228,9 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -215,6 +240,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -230,6 +258,9 @@ XXXX(xxxx)
       <td valign="bottom"><table width="200" border="1">
         <tbody>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -239,6 +270,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -250,6 +284,9 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -259,6 +296,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -270,6 +310,9 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -279,6 +322,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -290,6 +336,9 @@ XXXX(xxxx)
 </td>
           </tr>
           <tr>
+          <tr>
+"""")
+print("""
             <td bgcolor=#FFFFFF valign=top>
 <form id="form1" name="form1" method="post" action=form_add.html>
 <input type="submit" value="登録">
@@ -299,6 +348,9 @@ XXXX(xxxx)
 <center><b>　</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
 <input type="submit" value="登録">
@@ -308,6 +360,9 @@ XXXX(xxxx)
 <center><b>名前</b></center>
 XXXX(xxxx)
 </td>
+          <tr>
+"""")
+print("""
           </tr>
         </tbody>
       </table></td>
