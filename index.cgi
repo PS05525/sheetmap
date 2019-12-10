@@ -25,9 +25,27 @@ else:
     C = cookies.SimpleCookie()
     C["name"] = CC
 
+#データ判定および必要変数追加
+cnt=0
+for line in data:
+   if len(line[1]) == 0:
+      CGI="add.cgi"
+      FORM="登録"
+      COLOR="#FFFFFF"
+      NAME=""
+      data[cnt]=data[cnt][0],data[cnt][2],data[cnt][1],CGI,FORM,COLOR,NAME
+      cnt=cnt + 1
+   else:
+      CGI="mod.cgi"
+      FORM="更新"
+      COLOR="#BAF1FC"
+      NAME=line[1]
+      data[cnt]=data[cnt][0],data[cnt][2],data[cnt][1],CGI,FORM,COLOR,NAME
+      cnt=cnt + 1
+
 #サンプル
 print("Content-type: text/html;\n\n")
-print("<html><body><TITLE>ITSS座席表</TITLE><h1>test cgi</h1>\n")
+print("<html><body><TITLE>ITSS座席表</TITLE>\n")
 print("""
 <table width="200" border="0">
   <tbody>
