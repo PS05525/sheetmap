@@ -76,65 +76,27 @@ print("<td bgcolor=",data[2][5]," valign=top><form id=form1 name=form1 method=po
 print("<input type=submit value=",data[2][4],"><input type=hidden name=event value=form><input type=hidden name=num value=3>")
 print("<center><b>",data[2][6],"</b></center>XXXX(xxxx)</form></td>")
 
+print("<td bgcolor=",data[3][5]," valign=top><form id=form1 name=form1 method=post action=",data[3][3],">")
+print("<input type=submit value=",data[3][4],"><input type=hidden name=event value=form><input type=hidden name=num value=4>")
+print("<center><b>",data[3][6],"</b></center>XXXX(xxxx)</form></td></tr><tr>")
+
+print("<td bgcolor=",data[4][5]," valign=top><form id=form1 name=form1 method=post action=",data[4][3],">")
+print("<input type=submit value=",data[4][4],"><input type=hidden name=event value=form><input type=hidden name=num value=5>")
+print("<center><b>",data[4][6],"</b></center>XXXX(xxxx)</form></td>")
+
+print("<td bgcolor=",data[5][5]," valign=top><form id=form1 name=form1 method=post action=",data[5][3],">")
+print("<input type=submit value=",data[5][4],"><input type=hidden name=event value=form><input type=hidden name=num value=6>")
+print("<center><b>",data[5][6],"</b></center>XXXX(xxxx)</form></td></tr><tr>")
+
+print("<td bgcolor=",data[6][5]," valign=top><form id=form1 name=form1 method=post action=",data[6][3],">")
+print("<input type=submit value=",data[6][4],"><input type=hidden name=event value=form><input type=hidden name=num value=7>")
+print("<center><b>",data[6][6],"</b></center>XXXX(xxxx)</form></td>")
+
+print("<td bgcolor=",data[7][5]," valign=top><form id=form1 name=form1 method=post action=",data[7][3],">")
+print("<input type=submit value=",data[7][4],"><input type=hidden name=event value=form><input type=hidden name=num value=8>")
+print("<center><b>",data[7][6],"</b></center>XXXX(xxxx)</form></td>")
 
 print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="4">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          </tr>
-          <tr>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="5">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="6">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          </tr>
-          <tr>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="7">
-</form>
-<center><b>名前</b></center>
-9174(2364)
-</td>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="8">
-</form>
-<center><b>名前</b></center>
-9174(2364)
-</td>
           </tr>
         </tbody>
       </table>
@@ -148,200 +110,79 @@ print("""
           <tr>
           <tr>
 """)
+
+print("<td bgcolor=",data[8][5]," valign=top><form id=form1 name=form1 method=post action=",data[8][3],">")
+print("<input type=submit value=",data[8][4],"><input type=hidden name=event value=form><input type=hidden name=num value=9>")
+print("<center><b>",data[8][6],"</b></center>XXXX(xxxx)</form></td>")
+
+print("<td bgcolor=",data[9][5]," valign=top><form id=form1 name=form1 method=post action=",data[9][3],">")
+print("<input type=submit value=",data[9][4],"><input type=hidden name=event value=form><input type=hidden name=num value=10>")
+print("<center><b>",data[9][6],"</b></center>XXXX(xxxx)</form></td></tr><tr>")
+
+print("<td bgcolor=",data[10][5]," valign=top><form id=form1 name=form1 method=post action=",data[10][3],">")
+print("<input type=submit value=",data[10][4],"><input type=hidden name=event value=form><input type=hidden name=num value=11>")
+print("<center><b>",data[10][6],"</b></center>XXXX(xxxx)</form></td>")
+
+print("<td bgcolor=",data[11][5]," valign=top><form id=form1 name=form1 method=post action=",data[11][3],">")
+print("<input type=submit value=",data[11][4],"><input type=hidden name=event value=form><input type=hidden name=num value=12>")
+print("<center><b>",data[11][6],"</b></center>XXXX(xxxx)</form></td></tr><tr>")
+
+print("<td bgcolor=",data[12][5]," valign=top><form id=form1 name=form1 method=post action=",data[12][3],">")
+print("<input type=submit value=",data[12][4],"><input type=hidden name=event value=form><input type=hidden name=num value=13>")
+print("<center><b>",data[12][6],"</b></center>XXXX(xxxx)</form></td>")
+
+print("<td bgcolor=",data[13][5]," valign=top><form id=form1 name=form1 method=post action=",data[13][3],">")
+print("<input type=submit value=",data[13][4],"><input type=hidden name=event value=form><input type=hidden name=num value=14>")
+print("<center><b>",data[13][6],"</b></center>XXXX(xxxx)</form></td></tr><tr>")
+
+print("<td bgcolor=",data[14][5]," valign=top><form id=form1 name=form1 method=post action=",data[14][3],">")
+print("<input type=submit value=",data[14][4],"><input type=hidden name=event value=form><input type=hidden name=num value=15>")
+print("<center><b>",data[14][6],"</b></center>XXXX(xxxx)</form></td>")
+
+print("<td bgcolor=",data[15][5]," valign=top><form id=form1 name=form1 method=post action=",data[15][3],">")
+print("<input type=submit value=",data[15][4],"><input type=hidden name=event value=form><input type=hidden name=num value=16>")
+print("<center><b>",data[15][6],"</b></center>XXXX(xxxx)</form></td>")
+
 print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="9">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="10">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          </tr>
-          <tr>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="11">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="12">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          </tr>
-          <tr>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="13">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="14">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          </tr>
-          <tr>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="15">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="16">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          </tr>
+</tr>
         </tbody>
       </table></td>
       <td valign="bottom"><table width="200" border="1">
         <tbody>
           <tr>
 """)
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="17">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="18">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          </tr>
-          <tr>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="19">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="20">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          </tr>
-          <tr>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="21">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="22">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          </tr>
-          <tr>
-""")
-print("""
-            <td bgcolor=#FFFFFF valign=top>
-<form id="form1" name="form1" method="post" action=form_add.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="23">
-</form>
-<center><b>　</b></center>
-XXXX(xxxx)
-</td>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="24">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-""")
+print("<td bgcolor=",data[16][5]," valign=top><form id=form1 name=form1 method=post action=",data[16][3],">")
+print("<input type=submit value=",data[16][4],"><input type=hidden name=event value=form><input type=hidden name=num value=17>")
+print("<center><b>",data[16][6],"</b></center>XXXX(xxxx)</form></td>")
+
+print("<td bgcolor=",data[17][5]," valign=top><form id=form1 name=form1 method=post action=",data[17][3],">")
+print("<input type=submit value=",data[17][4],"><input type=hidden name=event value=form><input type=hidden name=num value=18>")
+print("<center><b>",data[17][6],"</b></center>XXXX(xxxx)</form></td></tr><tr>")
+
+print("<td bgcolor=",data[18][5]," valign=top><form id=form1 name=form1 method=post action=",data[18][3],">")
+print("<input type=submit value=",data[18][4],"><input type=hidden name=event value=form><input type=hidden name=num value=19>")
+print("<center><b>",data[18][6],"</b></center>XXXX(xxxx)</form></td>")
+
+print("<td bgcolor=",data[19][5]," valign=top><form id=form1 name=form1 method=post action=",data[19][3],">")
+print("<input type=submit value=",data[19][4],"><input type=hidden name=event value=form><input type=hidden name=num value=20>")
+print("<center><b>",data[19][6],"</b></center>XXXX(xxxx)</form></td></tr><tr>")
+
+print("<td bgcolor=",data[20][5]," valign=top><form id=form1 name=form1 method=post action=",data[20][3],">")
+print("<input type=submit value=",data[20][4],"><input type=hidden name=event value=form><input type=hidden name=num value=21>")
+print("<center><b>",data[20][6],"</b></center>XXXX(xxxx)</form></td>")
+
+print("<td bgcolor=",data[21][5]," valign=top><form id=form1 name=form1 method=post action=",data[21][3],">")
+print("<input type=submit value=",data[21][4],"><input type=hidden name=event value=form><input type=hidden name=num value=22>")
+print("<center><b>",data[21][6],"</b></center>XXXX(xxxx)</form></td></tr><tr>")
+
+print("<td bgcolor=",data[22][5]," valign=top><form id=form1 name=form1 method=post action=",data[22][3],">")
+print("<input type=submit value=",data[22][4],"><input type=hidden name=event value=form><input type=hidden name=num value=23>")
+print("<center><b>",data[22][6],"</b></center>XXXX(xxxx)</form></td>")
+
+print("<td bgcolor=",data[23][5]," valign=top><form id=form1 name=form1 method=post action=",data[23][3],">")
+print("<input type=submit value=",data[23][4],"><input type=hidden name=event value=form><input type=hidden name=num value=24>")
+print("<center><b>",data[23][6],"</b></center>XXXX(xxxx)</form></td>")
+
 print("""
           </tr>
         </tbody>
