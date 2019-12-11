@@ -365,4 +365,5 @@ print("""
   </tbody>
 </table>
 """)
+print(data)
 print("</body></html>\n")
