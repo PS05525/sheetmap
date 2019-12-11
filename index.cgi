@@ -38,7 +38,7 @@ for line in data:
       CGI="add.cgi"
       FORM="登録"
       COLOR="#FFFFFF"
-      NAME=""
+      NAME="　"
       data[cnt]=data[cnt][0],data[cnt][1],data[cnt][2],CGI,FORM,COLOR,NAME
       cnt=cnt + 1
    else:
@@ -90,11 +90,11 @@ print("<center><b>",data[5][6],"</b></center>XXXX(xxxx)</form></td></tr><tr>")
 
 print("<td bgcolor=",data[6][5]," valign=top><form id=form1 name=form1 method=post action=",data[6][3],">")
 print("<input type=submit value=",data[6][4],"><input type=hidden name=event value=form><input type=hidden name=num value=7>")
-print("<center><b>",data[6][6],"</b></center>XXXX(xxxx)</form></td>")
+print("<center><b>",data[6][6],"</b></center>9174(2364)</form></td>")
 
 print("<td bgcolor=",data[7][5]," valign=top><form id=form1 name=form1 method=post action=",data[7][3],">")
 print("<input type=submit value=",data[7][4],"><input type=hidden name=event value=form><input type=hidden name=num value=8>")
-print("<center><b>",data[7][6],"</b></center>XXXX(xxxx)</form></td>")
+print("<center><b>",data[7][6],"</b></center>9174(2365)</form></td>")
 
 print("""
           </tr>
@@ -191,5 +191,5 @@ print("""
   </tbody>
 </table>
 """)
-print(data)
+#print(data)
 print("</body></html>\n")
