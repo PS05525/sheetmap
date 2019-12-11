@@ -68,30 +68,15 @@ print("<td bgcolor=",data[0][5]," valign=top><form id=form1 name=form1 method=po
 print("<input type=submit value=",data[0][4],"><input type=hidden name=event value=form><input type=hidden name=num value=1>")
 print("<center><b>",data[0][6],"</b></center>XXXX(xxxx)</form></td>")
 
-print("""
-      <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="2">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-          </tr>
-          <tr>
-""")
-print("""
-            <td bgcolor=#BAF1FC valign=top>
-<form id="form1" name="form1" method="post" action=form_mod.html>
-<input type="submit" value="登録">
-<input type="hidden" name="event" value="addform">
-<input type="hidden" name="num" value="3">
-</form>
-<center><b>名前</b></center>
-XXXX(xxxx)
-</td>
-""")
+print("<td bgcolor=",data[1][5]," valign=top><form id=form1 name=form1 method=post action=",data[1][3],">")
+print("<input type=submit value=",data[1][4],"><input type=hidden name=event value=form><input type=hidden name=num value=2>")
+print("<center><b>",data[1][6],"</b></center>XXXX(xxxx)</form></td></tr><tr>")
+
+print("<td bgcolor=",data[2][5]," valign=top><form id=form1 name=form1 method=post action=",data[2][3],">")
+print("<input type=submit value=",data[2][4],"><input type=hidden name=event value=form><input type=hidden name=num value=3>")
+print("<center><b>",data[2][6],"</b></center>XXXX(xxxx)</form></td>")
+
+
 print("""
             <td bgcolor=#BAF1FC valign=top>
 <form id="form1" name="form1" method="post" action=form_mod.html>
