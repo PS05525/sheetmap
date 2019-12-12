@@ -3,6 +3,9 @@ import init
 import cgi
 import cgitb
 import csv
+import datetime
+import pathlib
+import shutil
 from http import cookies
 
 #日本語を処理するのに必要
@@ -13,10 +16,23 @@ from http import cookies
 #デバッグ機能を有効にする
 cgitb.enable()
 
+#HTML Header
+print("Content-type: text/html;\n\n")
 
 #フォーム情報の取り込み
 form = cgi.FieldStorage()
 
+#dataファイルの初期化
+now = datetime.datetime.now()
+month = '{0:%d}'.format(now)
+p = pathlib.Path('/web/cgi/seatmap.txt')
+ff=datetime.datetime.fromtimestamp(p.stat().st_ctime)
+fileday = '{0:%d}'.format(ff)
+if month != fileday:
+   src = '/web/cgi/seatmap.org'
+   copy = '/web/cgi/seatmap.txt'
+   shutil.copyfile(src,copy)
+   
 #データファイルを変数に置き換え
 with open('/var/www/cgi-bin/seatmap.txt', encoding='utf-8') as f:
    reader = csv.reader(f)
@@ -50,7 +66,6 @@ for line in data:
       cnt=cnt + 1
 
 #サンプル
-print("Content-type: text/html;\n\n")
 print("<html><body><TITLE>ITSS座席表</TITLE>\n")
 print("""
 <table width="200" border="0">
