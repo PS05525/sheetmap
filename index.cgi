@@ -25,12 +25,12 @@ form = cgi.FieldStorage()
 #dataファイルの初期化
 now = datetime.datetime.now()
 month = '{0:%d}'.format(now)
-p = pathlib.Path('/web/cgi/seatmap.txt')
+p = pathlib.Path('/var/www/cgi-bin/seatmap.txt')
 ff=datetime.datetime.fromtimestamp(p.stat().st_ctime)
 fileday = '{0:%d}'.format(ff)
 if month != fileday:
-   src = '/web/cgi/seatmap.org'
-   copy = '/web/cgi/seatmap.txt'
+   src = '/var/www/cgi-bin/seatmap.org'
+   copy = '/vae/www/cgi-bin/seatmap.txt'
    shutil.copyfile(src,copy)
    
 #データファイルを変数に置き換え
