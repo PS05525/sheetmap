@@ -30,7 +30,7 @@ ff=datetime.datetime.fromtimestamp(p.stat().st_ctime)
 fileday = '{0:%d}'.format(ff)
 if month != fileday:
    src = '/var/www/cgi-bin/seatmap.org'
-   copy = '/vae/www/cgi-bin/seatmap.txt'
+   copy = '/var/www/cgi-bin/seatmap.txt'
    shutil.copyfile(src,copy)
    
 #データファイルを変数に置き換え
